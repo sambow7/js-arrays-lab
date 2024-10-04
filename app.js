@@ -233,8 +233,11 @@ Hint: Be sure to declare and initialize the total variable before the iterations
 
 Complete Exercise 15 in the space below:
 */
+
+const total = numArrays
+
 numArrays.forEach((num) => {
-   if(index === 2) console.log("total");
+   if(num += 0) console.log(numArrays);
  });
  
 
