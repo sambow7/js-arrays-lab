@@ -234,13 +234,13 @@ Hint: Be sure to declare and initialize the total variable before the iterations
 Complete Exercise 15 in the space below:
 */
 
-const total = numArrays
-
+let total = 0
 numArrays.forEach((num) => {
-   if(num += 0) console.log(numArrays);
+   num.forEach((nums)  => {
+      total += nums;
+   });
  });
  
-
-console.log('Exercise 15 result:\n', total);
+ console.log('Exercise 15 result:\n', total); //534
 
  
