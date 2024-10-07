@@ -243,20 +243,9 @@ const numArrays = [
 
 let total = 0
 numArrays.forEach((items) => {
-   // console.log("ex 15a", items)
    items.forEach((item)  => {
-   // console.log("ex 15b", item)
      total += item;
    });
  });
  
  console.log('Exercise 15 result:\n', total); //534
-
- 
- const musicArray = ["Bee gees","cool and the gang ","Kendrick",];
-
- let max = 0 
- musicArray.forEach((element) => {
-   console.log("example:", element);
- });
-
