@@ -196,13 +196,13 @@ Exercise 13: Retrieve the Last Array
 Complete Exercise 13 in the space below:
 */
 
-const numArrays = [
-	[100, 5, 23],
-	[15, 21, 72, 9],
-	[45, 66],
-	[7, 81, 90]
-];
- numList = numArrays [3][2];
+// const numArrays = [
+// 	[100, 5, 23],
+// 	[15, 21, 72, 9],
+// 	[45, 66],
+// 	[7, 81, 90]
+// ];
+//  numList = numArrays [3][2];
 
 //// console.log('Exercise 13 result:', numList);
 
@@ -217,7 +217,7 @@ Exercise 14: Accessing within nested arrays
 Complete Exercise 14 in the space below:
 */
 
-num = numArrays [2][1];
+// num = numArrays [2][1];
 
 //// console.log('Exercise 14 result:', num);
 
@@ -234,13 +234,29 @@ Hint: Be sure to declare and initialize the total variable before the iterations
 Complete Exercise 15 in the space below:
 */
 
+const numArrays = [
+	[100, 5, 23],
+	[15, 21, 72, 9],
+	[45, 66],
+	[7, 81, 90]
+];
+
 let total = 0
 numArrays.forEach((items) => {
-   // console.log("ex 15", items)
+   // console.log("ex 15a", items)
    items.forEach((item)  => {
-   // console.log(item)
+   // console.log("ex 15b", item)
      total += item;
    });
  });
  
  console.log('Exercise 15 result:\n', total); //534
+
+ 
+ const musicArray = ["Bee gees","cool and the gang ","Kendrick",];
+
+ let max = 0 
+ musicArray.forEach((element) => {
+   console.log("example:", element);
+ });
+
